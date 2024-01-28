@@ -1,0 +1,35 @@
+/**index.wxss**/
+page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.scrollarea {
+  flex: 1;
+  overflow-y: hidden;
+}
+.content {
+  background: #fff;
+}
+.cat-item {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  padding-top: 10px;
+  padding-bottom: 20rpx;
+  width: 100%;
+}
+.cat-item .item {
+  text-align: center;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+}
+.image {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	overflow: hidden;
+}

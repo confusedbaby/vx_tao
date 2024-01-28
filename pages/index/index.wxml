@@ -1,0 +1,44 @@
+<!--index.wxml-->
+<navigation-bar title="首页" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+<scroll-view class="scrollarea" scroll-y type="list">
+ <view>
+  <view class="container">
+    <image style="width: 300px;height: 200px;" src="../../images/try1.jpg"></image>
+    <view class='cat-item '>
+      <view class='item' >
+        <image class="image" src='../../images/icon/newProd.png'></image>
+        <text>农产品</text>
+      </view>
+      <view class='item' >
+        <image class="image" src='../../images/icon/timePrice.png'></image>
+        <text>体验种植</text>
+      </view>
+      <view class='item' >
+        <image class="image" src='../../images/icon/neweveryday.png'></image>
+        <text>民宿</text>
+      </view>
+      <view class='item' >
+        <image class="image" src='../../images/icon/newprods.png'></image>
+        <text>收益用于</text>
+      </view>
+    </view>
+      
+    <view>
+        
+        <view class="page-body">
+          <view class="page-section tc">
+            <video 
+              id="myVideo" 
+              src="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400" 
+              binderror="videoErrorCallback" 
+              show-center-play-btn='{{false}}' 
+              show-play-btn="{{true}}" 
+              controls
+              picture-in-picture-mode="{{['push', 'pop']}}"
+            ></video>
+          </view>
+        </view>
+    </view>
+  </view>
+</view>
+</scroll-view>

@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login",
+    "pages/shopping/index",
+    "pages/login/index",
+    "pages/pension/index"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "selectedColor": "#3a86b9",
+    "color": "#b8b8b8",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tabbar/homepage.png",
+        "selectedIconPath": "images/tabbar/homepage-sel.png"
+      },
+      {
+        "pagePath": "pages/shopping/index",
+        "text": "特色产品",
+        "iconPath": "images/tabbar/category.png",
+        "selectedIconPath": "images/tabbar/category-sel.png"
+      },
+      {
+        "pagePath": "pages/pension/index",
+        "text": "民宿",
+        "iconPath": "images/tabbar/basket.png",
+        "selectedIconPath": "images/tabbar/basket-sel.png"
+      },
+      {
+        "pagePath": "pages/login/index",
+        "text": "用户",
+        "iconPath": "images/tabbar/user.png",
+        "selectedIconPath": "images/tabbar/user-sel.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "renderer": "skyline",
+  "rendererOptions": {
+    "skyline": {
+      "defaultDisplayBlock": true,
+      "disableABTest": true,
+      "sdkVersionBegin": "3.0.0",
+      "sdkVersionEnd": "15.255.255"
+    }
+  },
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
